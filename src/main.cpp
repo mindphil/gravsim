@@ -78,8 +78,8 @@ int main() {
         // Output every 10 steps
         if (step % 10 == 0) {
             std::cout << step * dt << ","
-          << bodies[0].pos.x << "," << bodies[0].pos.y << ","
-          << bodies[1].pos.x << "," << bodies[1].pos.y << std::endl;
+                      << bodies[0].pos.x << "," << bodies[0].pos.y << ","
+                      << bodies[1].pos.x << "," << bodies[1].pos.y << std::endl;
         }
     }
     
