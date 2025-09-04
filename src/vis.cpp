@@ -19,6 +19,14 @@ int main(){
     return 0;
 }
 
+ // Draw a sphere
+    void DrawSphereAtOrigin() {
+        const double radius = 0.25;
+        const int longitude = 50;
+        const int latitude = 50;
+        // SolidSphere(radius, longitude, latitude);
+    }
+
 GLFWwindow* StartGLFW(){
     if(!glfwInit()){
         std::cerr << "Failed to initialize GLFW" << std::endl;
